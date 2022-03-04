@@ -16,19 +16,15 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return `The work contained in this repository is covered by the MIT License. Learn about it [here](https://opensource.org/licenses/MIT)`;
+    return `The work contained in this repository is covered by the MIT License. Learn about it [here.](https://opensource.org/licenses/MIT)`;
   } else if (license === "Mozilla Public License 2.0") {
-    return `The work contained in this repository is covered by the Mozilla Public License 2.0. Learn about it [here](https://opensource.org/licenses/MPL-2.0)`;
+    return `The work contained in this repository is covered by the Mozilla Public License 2.0. Learn about it [here.](https://opensource.org/licenses/MPL-2.0)`;
   } else if (license === "Apache 2.0") {
-    return `The work contained in this repository is covered by the Apache 2.0 License. Learn about it [here](https://opensource.org/licenses/Apache-2.0)`;
+    return `The work contained in this repository is covered by the Apache 2.0 License. Learn about it [here.](https://opensource.org/licenses/Apache-2.0)`;
   } else {
     return `No license associated with this repository.`;
   }
 }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
