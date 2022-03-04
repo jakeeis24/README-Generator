@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   # Questions
   My Github username is ${data.github} \n
   Link to my Github profile: ${data.githubUrl} \n
-  Or email me: ${data.email}
+  Questions? Email me: ${data.email}
 
   # License
   ${renderLicenseLink(data.license)}
