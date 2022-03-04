@@ -40,7 +40,7 @@ inquirer
       type: "list",
       name: "license",
       message: "Select a license: ",
-      choices: ["MIT", "Mozilla Public License 2.0", "Apache 2.0"],
+      choices: ["MIT", "Mozilla Public License 2.0", "Apache 2.0", "None"],
     },
     {
       type: "input",
